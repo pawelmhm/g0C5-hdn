@@ -84,7 +84,7 @@ If user needs to pass a prompt, does not know what to do, we return information 
 Not via docs, via api
 
 request: "how do I extract product price information from walmart for Nevada"
-payload: "url, store_id}
+response payload: "url, store_id, price
 
 As little params as possible, not more, but less paramters.
 
@@ -99,3 +99,14 @@ If client needs fast download, add it for them
 
 
 ### AIO scraping, scrape LLM if needed
+Scrape all majort LLM-s
+* chatgpt
+* gemini
+* claude
+* perplexity
+* ...
+
+### SERP scraping
+Extract all data from google, bing. Trends, reviews, maps, business listings, return data in structured format easy to parse, good support for uule.
+
+### aaa
